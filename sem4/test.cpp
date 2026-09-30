@@ -1,5 +1,6 @@
 import TwoPhaseMergeSortClass;
 import OnePhaseMergeSortClass;
+import NaturalMergeSortClass;
     
 #include "../tests/universal_tests.h"
 #define TEST(x)                                                                \
@@ -9,3 +10,4 @@ import OnePhaseMergeSortClass;
 
 TEST(TwoPhaseMergeSort)
 TEST(OnePhaseMergeSort)
+TEST(NaturalMergeSort)
