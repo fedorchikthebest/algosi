@@ -1,4 +1,5 @@
 import ShellSortClass;
+import QuickSortClass;
     
 #include "../tests/universal_tests.h"
 #define TEST(x)                                                                \
@@ -7,3 +8,4 @@ import ShellSortClass;
   RANDOM_TESTS_MACRO(x)
 
 TEST(ShellSort)
+TEST(QuickSort)
