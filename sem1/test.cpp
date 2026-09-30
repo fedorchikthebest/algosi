@@ -1,4 +1,5 @@
 import BubbleSortClass;
+import BetterBubbleSortClass;
 import InsertionSortClass;
 import SelectionSortClass;
 import ExchangeSortClass;
@@ -13,3 +14,4 @@ TEST(BubbleSort)
 TEST(InsertionSort)
 TEST(SelectionSort)
 TEST(ExchangeSort)
+TEST(BetterBubbleSort)
