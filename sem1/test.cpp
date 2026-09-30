@@ -1,6 +1,7 @@
 import BubbleSortClass;
 import InsertionSortClass;
 import SelectionSortClass;
+import ExchangeSortClass;
     
 #include "../tests/universal_tests.h"
 #define TEST(x)                                                                \
@@ -11,3 +12,4 @@ import SelectionSortClass;
 TEST(BubbleSort)
 TEST(InsertionSort)
 TEST(SelectionSort)
+TEST(ExchangeSort)

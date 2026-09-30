@@ -12,7 +12,7 @@ public:
       min = &this->arr.at(min_pos);      
       for (int i = min_pos; i < this->arr.size(); i++) {
         if (this->arr.at(i) < *min)
-          min = &this->arr.at(i)                 ;
+          min = &this->arr.at(i);
       }
       z = *min;
       *min = this->arr.at(min_pos);
