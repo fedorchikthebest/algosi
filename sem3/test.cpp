@@ -1,5 +1,4 @@
-import BetterInsertionSortClass;
-import ShakerSortClass;
+import ShellSortClass;
     
 #include "../tests/universal_tests.h"
 #define TEST(x)                                                                \
@@ -7,5 +6,4 @@ import ShakerSortClass;
   BASE_TESTS_MACRO(x)                                                          \
   RANDOM_TESTS_MACRO(x)
 
-TEST(BetterInsertionSort)
-TEST(ShakerSort)
+TEST(ShellSort)
