@@ -1,6 +1,13 @@
 import BubbleSortClass;
+import InsertionSortClass;
+import SelectionSortClass;
+    
 #include "../tests/universal_tests.h"
+#define TEST(x)                                                                \
+  BOUNDARY_TESTS_MACRO(x)                                                      \
+  BASE_TESTS_MACRO(x)                                                          \
+  RANDOM_TESTS_MACRO(x)
 
-BOUNDARY_TESTS_MACRO(BubbleSort)
-BASE_TESTS_MACRO(BubbleSort)
-RANDOM_TESTS_MACRO(BubbleSort)
+TEST(BubbleSort)
+TEST(InsertionSort)
+TEST(SelectionSort)
