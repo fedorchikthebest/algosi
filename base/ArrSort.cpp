@@ -1,5 +1,6 @@
 module;
 
+#include <stdexcept>
 #include <vector>
 
 export module BaseArrClass;
